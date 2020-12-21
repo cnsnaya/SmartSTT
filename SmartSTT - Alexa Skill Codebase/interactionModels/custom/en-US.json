@@ -1,0 +1,39 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "request the driver",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "PassengerRequestIntent",
+          "slots": [
+            {
+              "name": "passenger_request",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "please {passenger_request}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "10"
+}
