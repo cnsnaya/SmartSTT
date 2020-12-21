@@ -10,6 +10,11 @@ HONDA HACKATHON - Voice Based Services On Connected Car Platform
 3.Chidananda Sahoo
 4.Swayam Padhi
 ```
+## Instructions for Alexa skill:
+* Alexa Skill codebase was developed and tested using the Alexa developer console. 
+* The Alexa Skill for SmartSTT feature was deployed using AWS Free tier provided by Amazon. 
+* The skill invocation name is "request the driver". This is used to invoke the Alexa skill while speaking to Alexa.
+* While making a request, use "please" before the request as it is a compulsory slot for the utterance.
 
 ## Instructions for python (Virtual Assistant):
 * First ensure that the "light.py" and "main.py" files are present in a same folder.
